@@ -26,7 +26,7 @@ form.addEventListener('submit', function(event) {
     return;
     }
     //Verification du nombre de caractere
-    if (motivation.length<100 || motivation.length>2500){
+    if (motivation.length<1000 || motivation.length>2500){
         alert("Le champs doit contenir entre 1000 et 2500 caracteres");
         return;
     }
